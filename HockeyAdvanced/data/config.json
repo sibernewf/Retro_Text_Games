@@ -1,0 +1,88 @@
+{
+  "homeTeam": "Harvard",
+  "awayTeam": "Cornell",
+
+  "periods": [ { "plays": 32 }, { "plays": 32 }, { "plays": 32 } ],
+  "suddenDeathOvertime": true,
+
+  "icingChance": 0.03,
+  "icingLines": [
+    "ICING PENALTY.",
+    "ICING PENALTY... OPPONENT REGAINS THE PUCK."
+  ],
+
+  "penalties": [
+    {
+      "key": "high_stick",
+      "display": "High Sticking",
+      "chance": 0.03,
+      "plays": 6,
+      "linesWhenCalled": [
+        "PENALTY FOR HIGH STICKING!  MAN PUT IN PENALTY BOX FOR 2 MINUTES.",
+        "HIGH STICKING — POWER PLAY BEGINS!"
+      ]
+    }
+  ],
+
+  "shots": [
+    {
+      "key": "slap",
+      "display": "Slap Shot",
+      "powerPlayGoalBoost": 0.05,
+      "powerPlaySaveDrop": 0.02,
+      "powerPlayBlockDrop": 0.03,
+      "outcomes": [
+        { "kind": "Goal",    "weight": 0.15, "lines": ["***** GOAL! *****", "HE HAMMERS IT HOME — GOAL!"] },
+        { "kind": "Post",    "weight": 0.08, "lines": ["SHOT HITS THE POST."] },
+        { "kind": "Wide",    "weight": 0.38, "lines": ["SHOT IS WIDE.", "SHOT IS BARELY WIDE..."] },
+        { "kind": "Blocked", "weight": 0.18, "lines": ["SHOT IS BLOCKED BY THE GOALIE."] },
+        { "kind": "Saved",   "weight": 0.21, "lines": ["SHOT IS TAKEN BY THE GOALIE."] }
+      ]
+    },
+    {
+      "key": "flick",
+      "display": "Flick Shot",
+      "powerPlayGoalBoost": 0.05,
+      "powerPlaySaveDrop": 0.02,
+      "powerPlayBlockDrop": 0.03,
+      "outcomes": [
+        { "kind": "Goal",    "weight": 0.10, "lines": ["***** GOAL! *****", "FLICKED IN!  GOAL!"] },
+        { "kind": "Post",    "weight": 0.03, "lines": ["SHOT HITS THE POST."] },
+        { "kind": "Wide",    "weight": 0.42, "lines": ["SHOT IS WIDE.", "SHOT DRIFTS WIDE."] },
+        { "kind": "Blocked", "weight": 0.27, "lines": ["SHOT IS BLOCKED BY THE GOALIE."] },
+        { "kind": "Saved",   "weight": 0.18, "lines": ["SHOT IS TAKEN BY THE GOALIE."] }
+      ]
+    },
+    {
+      "key": "wrist",
+      "display": "Wrist Shot",
+      "powerPlayGoalBoost": 0.05,
+      "powerPlaySaveDrop": 0.02,
+      "powerPlayBlockDrop": 0.03,
+      "outcomes": [
+        { "kind": "Goal",    "weight": 0.12, "lines": ["***** GOAL! *****", "TOP SHELF — GOAL!"] },
+        { "kind": "Post",    "weight": 0.04, "lines": ["SHOT HITS THE POST."] },
+        { "kind": "Wide",    "weight": 0.35, "lines": ["SHOT IS WIDE."] },
+        { "kind": "Blocked", "weight": 0.25, "lines": ["SHOT IS BLOCKED BY THE GOALIE."] },
+        { "kind": "Saved",   "weight": 0.24, "lines": ["SHOT IS TAKEN BY THE GOALIE."] }
+      ]
+    }
+  ],
+
+  "text": {
+    "intro": "THIS IS CORNELL v. HOCKEY. YOU ARE {home}. OPPONENT IS {away}.\nYOU HAVE THREE SHOTS: SLAP [slap], FLICK [flick], WRIST [wrist]. TYPE 'q' TO QUIT.",
+    "promptShot": "YOUR SHOT?",
+    "promptShotShort": "(type slap/flick/wrist, or q)",
+    "invalidShot": "PLEASE ENTER slap, flick, or wrist.",
+    "periodStartFmt": "***** START OF {0} PERIOD *****",
+    "periodEndFmt":   "***** END OF {0} PERIOD *****",
+    "overtimeStart":  "***** START OF SUDDEN-DEATH OVERTIME *****",
+    "overtimeLoop":   "...STILL TIED — WE PLAY ON!",
+    "gameEnd":        "***** END OF GAME *****",
+    "score": { "format": "SCORE:  HARVARD {H}   CORNELL {C}" },
+    "faceoff": {
+      "linesHarvard": [ "HARVARD WINS THE FACE-OFF." ],
+      "linesCornell": [ "CORNELL WINS THE FACE-OFF." ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+Player Documentation — Bingo (updated)
+Overview
+Text-based Bingo with a standard 75-ball set. You get a fresh 5×5 card (free center). Each draw marks your card automatically and shows the updated grid. Complete any row, column, or diagonal to win.
+
+How to Play
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+Enter → draw the next number
+
+N → start a new card
+
+P → print (save) the current card to bingo_card.txt
+
+Q → quit anytime
+
+When you win, the winning card is also saved as bingo_card_winner.txt.
+A session log is saved to bingo_log.txt.
+
+Notes
+The card uses classic column ranges:
+B 1–15, I 16–30, N 31–45 (FREE), G 46–60, O 61–75.
+
+Calls display numbers only (e.g., 57). The B I N G O header is for display only.
+
+Marked squares show as xxxx under each number.

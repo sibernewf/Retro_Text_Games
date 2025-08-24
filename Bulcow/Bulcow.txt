@@ -1,0 +1,118 @@
+BULCOW — Player Guide
+(Bulls & Cows — 5-Digit Number Guessing Game)
+
+Objective
+Be the first to correctly guess your opponent’s secret 5-digit number (all digits different, first digit 1–9).
+You and the computer will take turns guessing each other’s number.
+The first to get 5 Bulls wins.
+
+Game Rules
+Secrets
+
+Each player secretly chooses a 5-digit number.
+
+Digits must be unique.
+
+The first digit cannot be 0.
+
+Example: 53917 ✅, 05512 ❌.
+
+Turns
+
+You and the computer alternate guesses.
+
+After each guess, the program will give a score:
+
+BULL → Correct digit in the correct position.
+
+COW → Correct digit but in the wrong position.
+
+Example:
+
+Secret: 53917
+
+Guess: 53192
+
+5 ✅ (Bull, right place)
+
+3 ✅ (Bull, right place)
+
+1 ✅ (Cow, wrong place)
+Score: 2 Bulls, 1 Cow.
+
+Winning
+
+First to 5 Bulls wins.
+
+If you guess the computer’s secret first → You Win!
+
+If the computer guesses yours first → Computer Wins!
+
+Commands
+At the start: Enter your secret number when prompted. The computer also secretly chooses one.
+
+During your turn:
+
+Enter your guess directly (e.g., 48213).
+
+Q → Quit the game anytime.
+
+No need to score the computer’s guesses yourself — the program does it automatically.
+
+Example Turn
+— TURN 3 —
+Your guess: 48213
+You score: 1 BULL and 2 COWS.
+
+Computer guesses: 53917
+Computer scores: 3 BULLS and 0 COWS.
+Candidates remaining for the computer: 27
+
+Tips for Winning
+Start broad: Choose guesses that cover many different digits to quickly rule out numbers.
+
+Track feedback:
+
+Bulls tell you the exact positions you’ve nailed.
+
+Cows tell you the digit exists but is misplaced.
+
+Eliminate systematically: Each score lets you cross off impossible numbers.
+
+Avoid repeating digits you already know aren’t in the secret.
+
+Watch the candidates remaining count for the computer — if it’s dropping fast, speed up your search!
+
+ASCII Game Diagram
++--------------------------------------------------+
+|                BULCOW — Bulls & Cows             |
+|                                                  |
+|   Player Secret:  XXXXX                          |
+|   Computer Secret: XXXXX                         |
+|                                                  |
+|  ┌──────────────┐        ┌──────────────┐        |
+|  │ Player Guess │ -----> │   Scoring    │        |
+|  └──────────────┘        └──────┬───────┘        |
+|                                  │               |
+|                                  v               |
+|                          Bulls / Cows Display    |
+|                                  │               |
+|                                  v               |
+|  ┌──────────────┐        ┌──────────────┐        |
+|  │Computer Guess│ <----- │   Scoring    │ <------|
+|  └──────────────┘        └──────────────┘        |
+|                                                  |
+|  First to 5 Bulls WINS!                          |
++--------------------------------------------------+
+
+Quick Start
+Run the game (run.bat).
+
+Enter your secret (5 digits, no repeats, first digit not 0).
+
+On your turn, type a guess or press Enter (if implemented) to roll with your last guess.
+
+Use the Bulls & Cows scores to refine your next guess.
+
+Win by guessing the computer’s number first.
+

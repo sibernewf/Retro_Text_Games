@@ -1,0 +1,6 @@
+[
+  { "name": "dating",     "score": 35, "patterns": ["\\b(dating|go out|asking.*out|date)\\b"] },
+  { "name": "date_plan",  "score": 30, "patterns": ["\\b(plan|ideas?|where|what should we do)\\b.*\\b(date|tonight|weekend)\\b"] },
+  { "name": "compliment", "score": 25, "patterns": ["\\b(compliment|what.*say|how.*say)\\b.*\\b(her|him|them|partner)\\b"] },
+  { "name": "boundaries", "score": 25, "patterns": ["\\b(boundar(y|ies)|too fast|pace|expectations)\\b"] }
+]

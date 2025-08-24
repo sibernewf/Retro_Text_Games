@@ -1,0 +1,63 @@
+
+       D               D               D               D               D               D               D
+      D D             D D             D D             D D             D D             D D             D D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+D             D D             D D             D D             D D             D D             D D             D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+      D D             D D             D D             D D             D D             D D             D D
+       D               D               D               D               D               D               D
+       D               D               D               D               D               D               D
+      D D             D D             D D             D D             D D             D D             D D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+D             D D             D D             D D             D D             D D             D D             D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+      D D             D D             D D             D D             D D             D D             D D
+       D               D               D               D               D               D               D
+       D               D               D               D               D               D               D
+      D D             D D             D D             D D             D D             D D             D D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+D             D D             D D             D D             D D             D D             D D             D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+      D D             D D             D D             D D             D D             D D             D D
+       D               D               D               D               D               D               D
+       D               D               D               D               D               D               D
+      D D             D D             D D             D D             D D             D D             D D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+D             D D             D D             D D             D D             D D             D D             D
+ D           D   D           D   D           D   D           D   D           D   D           D   D           D
+  D         D     D         D     D         D     D         D     D         D     D         D     D         D
+   D       D       D       D       D       D       D       D       D       D       D       D       D       D
+    D     D         D     D         D     D         D     D         D     D         D     D         D     D
+     D   D           D   D           D   D           D   D           D   D           D   D           D   D
+      D D             D D             D D             D D             D D             D D             D D
+       D               D               D               D               D               D               D
+
+READY

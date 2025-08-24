@@ -1,0 +1,193 @@
+﻿CAN-AM — Canadian-American Challenge Cup (modernized)
+Speeds in MPH. Enter repeats last choice. Type Q to quit.
+
+
+Drivers and adhesion factors (lower = grippier):
+  Alby          adhesion=0.746  carΔ=+0.1
+  McLaren       adhesion=0.911  carΔ=+2.2
+  Lola          adhesion=0.771  carΔ=-0.1
+  Penske        adhesion=0.852  carΔ=-1.7
+  Chaparral     adhesion=0.887  carΔ=-0.9
+  Hulme         adhesion=0.939  carΔ=-2.4
+Track length ~ 4.00 miles, 16 sections.
+
+
+=== Section 1/16: Straight A — Straight — 0.30 mi — Max 200 mph ===
+Alby runs 200 mph → +5.40s (Total 5.40s).
+McLaren targets 201 mph.
+McLaren runs 201 mph → +5.36s (Total 5.36s).
+Lola targets 201 mph.
+Lola runs 200 mph → +5.40s (Total 5.40s).
+Penske targets 199 mph.
+Penske runs 198 mph → +5.45s (Total 5.45s).
+Chaparral targets 200 mph.
+Chaparral runs 199 mph → +5.43s (Total 5.43s).
+Hulme targets 197 mph.
+Hulme runs 197 mph → +5.47s (Total 5.47s).
+
+=== Section 2/16: Curve 1 — Curve — 0.10 mi — Max 125 mph ===
+McLaren targets 100 mph.
+McLaren runs 100 mph → +3.59s (Total 8.95s).
+Alby benefits from drafting (−0.06s).
+Alby runs 125 mph → +2.82s (Total 8.22s).
+Lola targets 108 mph.
+Lola benefits from drafting (−0.07s).
+Lola runs 108 mph → +3.26s (Total 8.66s).
+Chaparral targets 89 mph.
+Chaparral benefits from drafting (−0.08s).
+Chaparral runs 89 mph → +3.98s (Total 9.40s).
+Penske targets 98 mph.
+Penske benefits from drafting (−0.07s).
+Penske runs 98 mph → +3.62s (Total 9.06s).
+Hulme targets 85 mph.
+Hulme benefits from drafting (−0.08s).
+Hulme runs 85 mph → +4.13s (Total 9.60s).
+
+=== Section 3/16: Straight B — Straight — 0.17 mi — Max 200 mph ===
+Alby runs 200 mph → +3.06s (Total 11.28s).
+Lola targets 187 mph.
+Lola benefits from drafting (−0.07s).
+Lola runs 187 mph → +3.20s (Total 11.86s).
+McLaren targets 203 mph.
+McLaren benefits from drafting (−0.06s).
+McLaren runs 202 mph → +2.97s (Total 11.92s).
+Penske targets 197 mph.
+Penske benefits from drafting (−0.06s).
+Penske runs 197 mph → +3.04s (Total 12.11s).
+Chaparral targets 199 mph.
+Chaparral benefits from drafting (−0.06s).
+Chaparral runs 199 mph → +3.02s (Total 12.42s).
+Hulme targets 196 mph.
+Hulme benefits from drafting (−0.06s).
+Hulme runs 196 mph → +3.06s (Total 12.66s).
+
+=== Section 4/16: Curve 2 — Curve — 0.10 mi — Max 125 mph ===
+Alby WIPES OUT on Curve 2 at 125 mph — DNF.
+Lola targets 98 mph.
+Lola benefits from drafting (−0.07s).
+Lola runs 98 mph → +3.62s (Total 15.48s).
+McLaren targets 91 mph.
+McLaren WIPES OUT on Curve 2 at 91 mph — DNF.
+Penske targets 84 mph.
+Penske benefits from drafting (−0.09s).
+Penske runs 84 mph → +4.20s (Total 16.30s).
+Chaparral targets 80 mph.
+Chaparral benefits from drafting (−0.09s).
+Chaparral runs 80 mph → +4.42s (Total 16.83s).
+Hulme targets 69 mph.
+Hulme benefits from drafting (−0.10s).
+Hulme runs 69 mph → +5.08s (Total 17.74s).
+
+=== Section 5/16: Straight C — Straight — 0.15 mi — Max 200 mph ===
+Track: OIL on surface (level 0.24).
+Lola targets 154 mph.
+Lola runs 154 mph → +3.50s (Total 18.99s).
+Penske targets 163 mph.
+Penske benefits from drafting (−0.07s).
+Penske runs 163 mph → +3.25s (Total 19.56s).
+Chaparral targets 152 mph.
+Chaparral benefits from drafting (−0.07s).
+Chaparral runs 152 mph → +3.47s (Total 20.31s).
+Hulme targets 167 mph.
+Hulme benefits from drafting (−0.06s).
+Hulme runs 167 mph → +3.18s (Total 20.92s).
+
+=== Section 6/16: Curve 3 — Curve — 0.12 mi — Max 150 mph ===
+Track: OIL on surface (level 0.25).
+Lola targets 99 mph.
+Lola runs 99 mph → +4.35s (Total 23.33s).
+Penske targets 100 mph.
+Penske benefits from drafting (−0.09s).
+Penske runs 100 mph → +4.25s (Total 23.81s).
+Chaparral targets 94 mph.
+Chaparral benefits from drafting (−0.09s).
+Chaparral runs 94 mph → +4.50s (Total 24.80s).
+Hulme targets 95 mph.
+Hulme WIPES OUT on Curve 3 at 95 mph — DNF.
+
+=== Section 7/16: Straight D — Straight — 0.35 mi — Max 200 mph ===
+Track: OIL on surface (level 0.25).
+Lola targets 172 mph.
+Lola runs 172 mph → +7.31s (Total 30.64s).
+Penske targets 168 mph.
+Penske benefits from drafting (−0.15s).
+Penske runs 168 mph → +7.34s (Total 31.14s).
+Chaparral targets 149 mph.
+Chaparral benefits from drafting (−0.17s).
+Chaparral runs 149 mph → +8.31s (Total 33.11s).
+
+=== Section 8/16: Curve 4 — Curve — 0.10 mi — Max 125 mph ===
+Track: OIL on surface (level 0.26).
+Lola targets 76 mph.
+Lola runs 76 mph → +4.73s (Total 35.37s).
+Penske targets 77 mph.
+Penske benefits from drafting (−0.09s).
+Penske runs 77 mph → +4.60s (Total 35.74s).
+Chaparral targets 71 mph.
+Chaparral runs 71 mph → +5.07s (Total 38.18s).
+
+=== Section 9/16: Straight E — Straight — 0.25 mi — Max 200 mph ===
+Track: OIL on surface (level 0.25).
+Lola targets 171 mph.
+Lola runs 171 mph → +5.27s (Total 40.65s).
+Penske targets 167 mph.
+Penske benefits from drafting (−0.11s).
+Penske runs 167 mph → +5.28s (Total 41.02s).
+Chaparral targets 169 mph.
+Chaparral runs 169 mph → +5.33s (Total 43.50s).
+
+=== Section 10/16: Straight F — Straight — 0.22 mi — Max 200 mph ===
+Track: OIL on surface (level 0.25).
+Lola targets 164 mph.
+Lola WIPES OUT on Straight F at 164 mph — DNF.
+Penske targets 150 mph.
+Penske benefits from drafting (−0.11s).
+Penske runs 150 mph → +5.17s (Total 46.19s).
+Chaparral targets 140 mph.
+Chaparral runs 140 mph → +5.65s (Total 49.16s).
+
+=== Section 11/16: Straight G — Straight — 0.45 mi — Max 200 mph ===
+Track: OIL on surface (level 0.25).
+Penske targets 150 mph.
+Penske runs 150 mph → +10.82s (Total 57.01s).
+Chaparral targets 161 mph.
+Chaparral runs 161 mph → +10.09s (Total 59.25s).
+
+=== Section 12/16: Straight H — Straight — 0.42 mi — Max 200 mph ===
+Track: OIL on surface (level 0.25).
+Penske targets 159 mph.
+Penske runs 159 mph → +9.49s (Total 66.50s).
+Chaparral targets 159 mph.
+Chaparral WIPES OUT on Straight H at 159 mph — DNF.
+
+=== Section 13/16: Curve 7 — Curve — 0.10 mi — Max 125 mph ===
+Weather: RAIN — grip reduced.
+Track: OIL on surface (level 0.26).
+Penske targets 63 mph.
+Penske runs 63 mph → +5.69s (Total 72.20s).
+
+=== Section 14/16: Curve 8 — Curve — 0.15 mi — Max 150 mph ===
+Weather: RAIN — grip reduced.
+Track: OIL on surface (level 0.26).
+Penske targets 83 mph.
+Penske runs 83 mph → +6.49s (Total 78.69s).
+
+=== Section 15/16: Straight I — Straight — 0.70 mi — Max 200 mph ===
+Weather: RAIN — grip reduced.
+Track: OIL on surface (level 0.25).
+Penske targets 143 mph.
+Penske runs 143 mph → +17.66s (Total 96.34s).
+
+=== Section 16/16: Start/Finish (Straight J) — Straight — 0.32 mi — Max 150 mph ===
+Weather: RAIN — grip reduced.
+Track: OIL on surface (level 0.25).
+Penske targets 107 mph.
+Penske runs 107 mph → +10.78s (Total 107.12s).
+
+===== CHECKERED FLAG =====
+ 1. Penske        107.12 s
+ 2. Alby          DNF
+ 2. McLaren       DNF
+ 2. Hulme         DNF
+ 2. Lola          DNF
+ 2. Chaparral     DNF

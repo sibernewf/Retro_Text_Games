@@ -1,0 +1,169 @@
+Modern Baseball – Player Documentation
+Overview
+Modern Baseball is a text-based baseball simulation game where you play as the manager of one team (the Away team) against the computer-controlled Home team.
+You make batting decisions — swing, take, or bunt — and watch the play-by-play unfold.
+The game tracks innings, outs, hits, walks, runs, and gives you a full scoreboard and commentary.
+
+Starting the Game
+ - Ensure you are in the game’s folder in your terminal or by double-clicking your batch file.
+ - Run the included run.bat file.
+   - This will automatically start the game using:
+
+     dotnet run
+
+Game Setup
+When you start the game, you will be asked:
+ - Away team name (you)
+   - Type your team’s name and press Enter.
+   - Press Q and Enter to quit immediately.
+   - Leave blank to use the default name "Panthers".
+ - Home team name (CPU)
+   - Type the CPU team’s name and press Enter.
+   - Press Q and Enter to quit immediately.
+   - Leave blank to use the default name "Rockets".
+
+You’ll then see a tip on how to make choices during the game.
+
+How to Play
+The game is played in the standard 9 innings (with extra innings if tied).
+You control your team’s offense (batting). The computer handles pitching and its own batting turns.
+
+Your Turn at Bat
+When your batter comes up, you will see something like:
+
+  Count 1-1  Bases [1.3]  Outs 1 | Choose: [S]wing  [T]ake  [B]unt  [Q]uit:
+
+ - Count → Balls-Strikes
+ - Bases →
+   - 1 means runner on 1st base
+   - 2 means runner on 2nd base
+   - 3 means runner on 3rd base
+   - . means empty base
+     Example: [1.3] means runners on 1st and 3rd.
+ - Outs → Number of outs in the inning.
+ - Choices:
+   - S → Swing at the pitch (chance of hit, home run, foul, or out).
+   - T → Take the pitch (chance it’s a ball or called strike).
+   - B → Attempt a bunt (possible sacrifice, bunt hit, foul, or out).
+   - Q → Quit the game immediately.
+
+Game Flow
+ - Each half-inning continues until your team or the CPU gets 3 outs.
+ - Runs are scored when runners cross home plate.
+ - The scoreboard updates after each half-inning.
+ - CPU makes its own batting choices when it’s up.
+
+Ending the Game
+ - The game ends when:
+   - 9 innings are completed with one team ahead.
+   - Extra innings finish with one team ahead.
+ - The final score is displayed.
+ - A full play-by-play log is saved to:
+
+  bb_playbyplay.txt
+
+This file contains every pitch result and action for later reading.
+
+Example
+*** MODERN BASEBALL ***
+
+Away team name (you) or 'Q' to quit: Panthers
+Home team name (CPU) or 'Q' to quit: Rockets
+
+Tip: During your at-bats choose S (swing), T (take), B (bunt), or Q (quit).
+
+Welcome to Rockets Stadium — Panthers vs Rockets
+
+
+=== Top 1 — Panthers 0 — Rockets 0 ===
+
+↑ Panthers — Batter #1  [..3]  Outs:0
+Count 0-0  Bases [..3]  Outs 0 | Choose: [S]wing  [T]ake  [B]unt  [Q]uit: S
+Line drive — single.
+
+Tips
+ - Swing when ahead in the count or when you need a big hit.
+ - Take when the pitcher is wild — walks can push in runs.
+ - Bunt with a fast runner and less than 2 outs to advance runners.
+ - Keep an eye on outs and base runners before choosing your move.
+
+Modern Baseball — Quick Reference
+Starting & Quitting
+ - Launch: double-click run.bat (it runs dotnet run for you).
+ - Quit anytime:
+   - At team name prompts: type Q and press Enter.
+   - During your at-bat choice: press Q.
+
+On-Screen HUD
+ - Count: Balls-Strikes, e.g., 2-1.
+ - Bases: [1.3] → runners on 1st & 3rd (. means empty).
+ - Outs: number of outs this half-inning.
+ - Your choices each pitch: [S]wing / [T]ake / [B]unt / [Q]uit.
+
+Outcomes (what they mean & what happens)
+When you Take (don’t swing)
+ - “Taken for a ball.” → Count balls +1. Walk at 4 balls (see Walk below).
+ - “Taken for a strike.” → Count strikes +1. Strikeout looking at 3 strikes → OUT.
+
+When you Swing
+ - “HOMER! N run(s) score.”
+   - Batter and all runners score. Bases cleared.
+ - “Triple off the wall!”
+   - Batter to 3rd. All runners advance 3 bases and may score.
+ - “Drilled to the gap — double.”
+   - Batter to 2nd. Runners advance 2 bases (scores possible).
+ - “Line drive — single.”
+   - Batter to 1st. Runners advance 1 base (runner on 2nd often scores if forced ahead).
+ - “Close pitch — called ball.”
+   - Rare ball on a swing decision (count balls +1). Walk at 4.
+ - “Swing and a miss — strike.”
+   - Count strikes +1. At 3 strikes → “…strike three!” → OUT.
+ - Ball in play outs
+   - “Hard grounder — double play!”
+      - With runner on 1st and ≤1 out, likely 6-4-3 DP: two outs, bases update.
+   - “Chopper to short — out at first.”
+      - Batter out, runners hold/advance on force only.
+   - “Fly ball — caught.”
+      - Batter out, runners hold (no tags in this simplified model).
+
+When you Bunt
+ - “Perfect bunt — infield single.”
+    - Batter safe at 1st, runners advance 1.
+ - “Good sacrifice — runner(s) advance, batter out.”
+   - Runners +1 base, batter OUT.
+ - “Bunt attempt goes foul — strike.”
+   - Counts as a strike; strike three → OUT.
+ - “Popped up the bunt — OUT.”
+   - Batter out, runners hold.
+
+Walks
+ - “Batter walks.” at 4 balls.
+ - Bases loaded → “Walk forces in a run! +1” (or more if multiple forced).
+
+Score, Innings, and End Conditions
+ - Half-inning ends at 3 outs; bases reset.
+ - 9 innings regulation. If tied after 9, extra innings continue until a winner emerges.
+ - Final line shows: AWAY X — HOME Y. Full play-by-play saved to bb_playbyplay.txt.
+
+CPU Behavior (so you can game the AI a bit 😏)
+ - With <2 outs and only a runner on 1st: ~20% chance to Bunt.
+ - Otherwise: ~70% Swing, ~30% Take.
+ - Being ahead in the count improves hit odds; behind favors strikeouts/outs.
+
+Base & Force Rules (simplified)
+ - Advance(n) moves all runners n bases in order (3rd → home first).
+ - Walk forces runners if bases behind are occupied (can score a run).
+ - Double Play most likely on grounder with runner on 1st and ≤1 out.
+ - No steals, tags, or infield fly—kept intentionally simple for flow.
+
+Reading the Bases Display
+ - [1..] → runner on 1st only
+ - [..3] → runner on 3rd only
+ - [123] → bases loaded
+ - [...] → bases empty
+
+Tips for Winning
+ - Take more often when you’re ahead in the count or the pitcher’s wild; free baserunners win games.
+ - Bunt with a runner on 1st and 0–1 outs to avoid double plays and move them into scoring position.
+ - Swing when you need an RBI or with runners on 2nd/3rd and 2 outs.
+

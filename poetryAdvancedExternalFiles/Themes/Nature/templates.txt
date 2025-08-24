@@ -1,0 +1,5 @@
+det adj noun verb prep det noun
+det noun verb adv
+gerund prep det noun
+noun verb prep det adj noun
+det adj noun

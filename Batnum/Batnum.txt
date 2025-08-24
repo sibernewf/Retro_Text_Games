@@ -1,0 +1,87 @@
+Battle of Numbers — Player Guide
+Overview
+Battle of Numbers is a classic take-away strategy game.
+You and the computer take turns removing objects from a single pile.
+The game can be played with two different winning conditions, and you can customise the pile size, allowed moves, and who plays first.
+
+Starting the Game
+Run the game using your batch file:
+
+run.bat
+(This runs dotnet run for you — no extra steps required.)
+
+The game will display a welcome message and guide you through the setup.
+
+Game Setup Options
+When prompted, enter each value and press Enter.
+
+Pile Size –
+Total number of objects to start with.
+Must be at least 1.
+
+Win Option –
+1 = Take the last object to win (normal play)
+2 = Avoid taking the last object to win (misère play)
+
+Minimum Take –
+The fewest objects you can remove on a turn (minimum 1).
+
+Maximum Take –
+The most objects you can remove on a turn.
+Must be equal to or greater than your minimum take.
+
+Start Option –
+1 = Computer moves first
+2 = You move first
+
+Taking Your Turn
+On your turn, type how many objects you want to take and press Enter.
+
+You must take at least the minimum allowed and no more than the maximum allowed, unless there are fewer objects left — in which case you may take all remaining.
+
+If you try an illegal move, you will be prompted to try again.
+
+Ending the Game
+The game ends when there are no objects left in the pile:
+
+Win Option 1: The player who took the last object wins.
+
+Win Option 2: The player who took the last object loses.
+
+The game will announce the result, then ask:
+
+PLAY AGAIN (Y/N)?
+Press Y to start a new game with new settings.
+
+Press N to return to the desktop.
+
+Quitting at Any Time
+You can type:
+
+Q
+at any prompt to immediately quit the game.
+
+Example Game
+THIS PROGRAM IS A 'BATTLE OF NUMBERS'
+GAME, WHERE THE COMPUTER IS YOUR OPPONENT.
+
+ENTER PILE SIZE:  22
+ENTER WIN OPTION - 1 TO TAKE LAST, 2 TO AVOID LAST:  2
+ENTER MIN (>=1):  2
+ENTER MAX (>= 2):  3
+ENTER START OPTION: 1 COMPUTER FIRST, 2 YOU FIRST:  1
+
+COMPUTER TAKES 2 AND LEAVES 20
+YOUR MOVE (take 2..3):  3
+COMPUTER TAKES 2 AND LEAVES 15
+YOUR MOVE (take 2..3):  3
+...
+TOUGH LUCK, YOU LOSE.
+Tips for Winning
+In Option 1 (take last wins), aim to leave the pile in a position where:
+
+pile % (min + max) ∈ {0 .. min-1}
+In Option 2 (take last loses), try to leave:
+
+pile % (min + max) ∈ {1 .. min}
+Watch the computer’s moves — it plays with an optimal strategy.

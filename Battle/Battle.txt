@@ -1,0 +1,31 @@
+Player Documentation — BATTLE
+Overview
+BATTLE is a quick, text-based “Battleship” variant. The enemy fleet is hidden on a 10×10 grid. Fire at coordinates to score DIRECT HITS and sink ships. We track your SPLASH/HIT ratio and report how many Destroyers, Cruisers, and Carriers you’ve sunk.
+
+How to Play (with your setup)
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+Controls
+Enter a coordinate as row,column (e.g., 5,2) or as letter+number (e.g., C7, A10).
+
+Q → quit immediately.
+
+What you’ll see
+SPLASH! TRY AGAIN. → Miss.
+
+A DIRECT HIT ON SHIP NUMBER N. → You’ve hit ship N.
+
+…AND YOU SINK IT. HURRAH FOR THE GOOD GUYS. → Ship N sunk. We’ll list class losses so far.
+
+YOUR CURRENT SPLASH/HIT RATIO IS X. → Misses per hit. Lower is better.
+
+Win condition
+Sink all ships to win. When you’re done, a log of the session is saved to:
+
+  battle_playbyplay.txt
+
+Tips
+Shots you repeat are ignored (we’ll remind you you’ve already fired there).
+
+Carriers are the longest targets; once you find a segment, probe in straight lines.

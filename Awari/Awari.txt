@@ -1,0 +1,24 @@
+Awari:
+
+Rules implemented:
+
+On your turn, choose one of your 6 pits (1–6). Sow seeds counter-clockwise.
+
+Capture: if your last seed lands in an opponent pit and that pit now has 2 or 3, you capture those; continue backwards capturing adjacent opponent pits with 2 or 3.
+
+No-starve rule: a capture that would leave the opponent with no seeds at all is disallowed; in that case, no capture occurs.
+
+Game ends when a player has no legal move; the other side collects remaining seeds. Highest total wins.
+
+The computer uses a quick greedy+lookahead (depth 4) to choose moves.
+
+Run it
+Install the .NET SDK (if needed): https://dotnet.microsoft.com/download
+
+In a terminal:
+
+dotnet new console -n AwariGame
+cd AwariGame
+# Replace Program.cs with the code above (or put it in Awari.cs and update Program.cs to call Main)
+dotnet run
+Enter moves 1–6 when prompted. The board prints after every move, with both scores

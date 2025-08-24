@@ -1,0 +1,45 @@
+Player Documentation — Modern Blackjack
+Overview
+A streamlined Vegas-style blackjack in the console. You start with a bankroll, place wagers, and play against the dealer. Dealer stands on all 17s. A natural blackjack pays 3:2. You can double down on your first decision; insurance is offered when the dealer shows an Ace.
+
+How to Play
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+Type numbers for bankroll and wagers.
+
+During a hand, choose:
+
+H – Hit
+
+S – Stand
+
+D – Double down (only as your first decision; exactly one card)
+
+When the dealer shows an Ace, you may buy Insurance (pays 2:1 if the dealer has blackjack).
+
+Press Q at any prompt to quit immediately.
+
+Rules Recap
+Card values: 2–10 face value; J/Q/K = 10; A = 1 or 11.
+
+Blackjack: an Ace + 10-value card as your first two cards.
+
+Dealer: hits until 17 or more; stands on soft 17 (A+6) in this version.
+
+Outcomes:
+
+Win → you win what you bet (even money).
+
+Blackjack → pays 3:2 (e.g., bet $20 → win $30).
+
+Loss → you lose your bet.
+
+Push → no money changes hands.
+
+Insurance → optional half-bet if dealer shows Ace; pays 2:1 only if dealer has blackjack.
+
+Session Log
+A simple text log of your session (hands, draws, outcomes) is saved to:
+
+  blackjack_log.txt

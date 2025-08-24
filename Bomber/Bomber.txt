@@ -1,0 +1,44 @@
+Player Documentation — BOMBER
+Overview
+You’re a WWII bomber pilot. Pick your side, aircraft, and target, then try to survive the flak and get your bombs on target. The game simulates mission difficulty from the target region, your experience, and the enemy’s defenses.
+
+How to Play
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+Controls & Flow
+Choose your side
+1 Allies, 2 Germany, 3 Japan, 4 Italy
+
+Pick an aircraft
+1 Liberator, 2 B-29, 3 B-17, 4 Lancaster (each with different payload)
+
+Pick a target from a short list appropriate to your side (e.g., Ploesti, Ruhr, Hamburg, Bismarck, London, Hiroshima, etc.)
+
+Enter missions flown — experience improves survival chances.
+
+Enemy defenses
+
+1 Guns, 2 Missiles, 3 Both (combined is toughest)
+
+Enter the gunner hit rate (10–50%)
+
+The game narrates whether you survive tremendous flak or are shot down.
+
+Choose to play again or quit.
+
+Press Q at any input to quit immediately.
+
+Results & Logging
+If you survive, you’ll see “MISSION SUCCESSFUL — N TONS ON TARGET.”
+
+If not: “YOU’VE BEEN SHOT DOWN. DEARLY BELOVED…”
+
+A brief session log is saved to bomber_log.txt.
+
+Tips
+Tough targets (Ruhr/Hamburg/Ploesti) reduce survival odds.
+
+Higher enemy hit rates and both guns + missiles stack penalties.
+
+Veterans (more missions) have better survival chances.

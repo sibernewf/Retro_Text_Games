@@ -1,0 +1,61 @@
+Bulleye – Player Documentation
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+Game Overview
+Bulleye is a multiplayer dart-throwing game for 1–20 players, where the goal is to score 200 points before your opponents.
+You’ll take turns choosing a throwing style, each with its own risk and reward. The first player (or players) to reach 200 points wins.
+
+Objective
+Be the first to score 200 points by hitting higher-value zones on the dartboard.
+
+How to Play
+Enter the number of players (1–20).
+
+Enter each player’s name (press Enter for default name).
+
+On your turn, choose your throw style:
+
+1 = Fast Overarm – High risk, high reward. Likely either 40 points (bullseye) or 0 points.
+
+2 = Controlled Overarm – Balanced risk. Often lands 10–30 points, occasional miss.
+
+3 = Underarm – More consistent, can score anywhere from 0–40 points, weighted toward middle scores.
+
+Press Enter without typing a number to repeat your last throw.
+
+The game announces your score after each throw and updates your total.
+
+Play continues in rounds until one or more players reach 200 points.
+
+Winners are announced; ties are possible if multiple players hit 200 in the same round.
+
+Controls
+1 → Fast Overarm throw
+
+2 → Controlled Overarm throw
+
+3 → Underarm throw
+
+Enter → Repeat your last throw
+
+Q → Quit the game immediately
+
+Scoring Zones
+| Zone        | Points | Typical Throw Styles         |
+| ----------- | ------ | ---------------------------- |
+| Bullseye    | 40     | Fast Overarm, Underarm       |
+| Outer Red   | 30     | Controlled Overarm, Underarm |
+| Outer Blue  | 20     | Controlled Overarm, Underarm |
+| Outer Green | 10     | Controlled Overarm, Underarm |
+| Miss        | 0      | Any throw type               |
+
+Tips & Strategy
+Fast Overarm is risky — use it if you’re trailing and need big points fast.
+
+Controlled Overarm is good for steady scoring without too much risk.
+
+Underarm gives the most varied results but avoids frequent total misses.
+
+Remember: Press Enter to quickly repeat your last throw without retyping the number.
+

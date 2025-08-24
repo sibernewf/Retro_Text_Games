@@ -1,0 +1,95 @@
+BOWL – Player Guide
+📜 Overview
+Bowl is a simulated ten-pin bowling game for 1–4 players.
+The game plays 10 frames, with up to two rolls per frame (three in the 10th frame if you score a strike or spare).
+Your goal: knock down as many pins as possible and score the highest total.
+
+🕹 How to Play
+The game will ask how many players (1–4).
+Enter a number and press Enter.
+
+The game begins with Frame 1, Ball 1 for Player 1.
+
+When prompted:
+
+Press Enter to roll
+
+OR type roll and press Enter
+
+The game will simulate your throw and display the pin diagram after each roll.
+
+The game will print one of the following:
+
+GUTTER – no pins knocked down
+
+STRIKE – all 10 pins knocked down on the first ball
+
+SPARE – all remaining pins knocked down on the second ball
+
+ERROR – only possible if the roll result was invalid (shouldn’t happen in normal play)
+
+Play passes to the next player and continues until all players have bowled 10 frames.
+
+🎯 Pin Diagram
+The computer uses the following ASCII display after each roll:
+0 = Pin knocked down
++ = Pin still standing
+    +  
+   + +  
+  + + +  
+ + + + + 
+ 
+Example after rolling a strike:
+    0  
+   0 0  
+  0 0 0  
+ 0 0 0 0
+
+📊 Scoring
+Strike (X) = 10 + pins knocked down in next 2 rolls
+
+Spare (/) = 10 + pins knocked down in next roll
+
+Open Frame = total pins knocked down in that frame
+
+The game automatically calculates and displays your final score at the end.
+
+💡 Tips for Play
+Consistency matters: Since rolls are random, every player has an equal chance.
+
+Two-player mode is fast-paced and ideal for competition.
+
+Three or four players makes for longer games but more fun in a group.
+
+You don’t need to type “roll” every time – pressing Enter is faster.
+
+A strike on the first ball means you skip the second roll for that frame.
+
+If you get a strike or spare in the 10th frame, you get bonus rolls automatically.
+
+🧾 Example Game
+PLAYER 1  -- FRAME: 1  BALL: 1
+(press Enter)
+    +  
+   + +  
+  0 + +  
+ + 0 0 0  
+
+ROLL YOUR 2ND BALL
+(press Enter)
+    0  
+   0 +  
+  0 0 0  
+ 0 0 0 0  
+SPARE!!!
+
+PLAYER 2  -- FRAME: 1  BALL: 1
+(press Enter)
+    0  
+   0 0  
+  0 0 0  
+ 0 0 0 0  
+STRIKE!!!
+
+✅ To play: Double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.

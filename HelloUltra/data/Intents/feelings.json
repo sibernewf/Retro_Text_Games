@@ -1,0 +1,18 @@
+[
+  {
+    "name": "feelings_pos",
+    "score": 60,
+    "patterns": [
+      "^(?:i'm|im|i am|feeling)?\\s*(good|great|fine|ok|okay|awesome|better|fantastic|pretty good)\\s*(?:,?\\s*(?:and\\s+)?you\\??)?\\s*[.!?]*$",
+      "\\b(i'm|im|i am|feeling)\\s*(good|great|ok|okay|fine|awesome|better|fantastic)\\b"
+    ]
+  },
+  {
+    "name": "feelings_neg",
+    "score": 60,
+    "patterns": [
+      "^(?:i'm|im|i am|feeling)?\\s*(bad|sad|tired|sick|awful|terrible|anxious|stressed|down)\\s*(?:,?\\s*(?:and\\s+)?you\\??)?\\s*[.!?]*$",
+      "\\b(i'm|im|i am|feeling)\\s*(bad|sad|tired|sick|awful|terrible|anxious|stressed|down)\\b"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+Acey Deucy is a perfect little console game.
+Here’s a clean C# version you can paste straight into a .NET console app (or drop into Unity as a quick test via the Console). I used the common house rules:
+ - Two cards are dealt face-up (2–10, J, Q, K, A where A=14).
+ - You bet that the 3rd card will fall strictly between the two.
+ - If it’s between → you win your bet.
+ - If it matches either end → you lose double your bet.
+ - Otherwise → you lose your bet.
+ - Start bankroll = 100. Bet 0 to skip (“chicken!”). Quit with Q.
+
+How to run it (two easy ways)
+Option A — .NET on your PC
+ - Install .NET SDK (if you don’t have it): https://dotnet.microsoft.com/download
+ - In a terminal:
+
+  dotnet new console -n AceyDeucy
+  cd AceyDeucy
+
+ - Replace the generated Program.cs with the code above.
+ - Run it:
+
+  dotnet run
+
+Option B — Unity (play in the Console)
+ - Create an empty GameObject in a scene.
+ - Add a new C# script AceyDeucy.cs and paste the same code, but wrap Main() with a quick launcher:
+   - Change class Program to public class AceyDeucy : UnityEngine.MonoBehaviour
+   - In Start(), call a coroutine that runs the loop and uses Debug.Log and UnityEditor.ConsoleWindow is clunky—so console play is better in .NET.
+     (TL;DR: this one’s much nicer as a terminal game.)

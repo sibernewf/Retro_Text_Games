@@ -1,0 +1,5 @@
+Side: Allies
+Aircraft: B-17 Flying Fortress, payload 2t
+Target: Ruhr Water Plant (Germany)
+Missed by 18 miles
+SURVIVED

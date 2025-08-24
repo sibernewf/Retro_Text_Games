@@ -1,0 +1,102 @@
+BANNER PRINTS A LARGE BANNER
+Description
+This program creates a large banner on a terminal of any
+message you input (up to 54 characters in length). The
+letters may be any dimension you wish although the letter
+height plus distance from left-hand side should not exceed
+6 inches. Also, the letter height should be somewhat more
+than the width. Adhering to these rules will generally produce
+a very attractive banner.
+computer Limitations
+BANNER was written for a DIGITAL EduSystem 50. For other
+computers, the character string line input (LINPUT) statement
+at Line 240 would have to be changed.
+Program Author
+Daniel R. Vernon
+Butler Senior High School
+Butler, PA 16001
+
+Banner Printer – Player Documentation
+Overview
+The Banner Printer program creates large “poster-style” text using block letters.
+You choose:
+ - The height and width of the letters (in inches)
+ - How far from the left margin to start printing
+ - The message you want in big letters
+
+The program prints your message in the console and saves it to a text file (banner_output.txt) so you can view or print it later.
+
+Starting the Program
+ - Open the program from your terminal or command prompt.
+ - Follow the on-screen prompts to enter:
+   - Letter height and width (in inches)
+   - Left margin (in inches from the left edge)
+   - Your message text
+
+Example start in terminal:
+
+  dotnet run
+
+Alternately
+  double click on Run.bat
+
+Step-by-Step Instructions
+1. Enter Letter Height and Width
+You’ll see:
+  INPUT HEIGHT, WIDTH IN INCHES?
+
+ - Type two numbers separated by a comma or space.
+ - Example:
+    4 3
+
+This means each letter is 4 inches tall and 3 inches wide.
+
+2. Enter Left Margin
+You’ll see:
+  HOW FAR IN INCHES FROM THE LEFT HAND SIDE, DO YOU WANT TO PLACE THE LETTERS?
+
+ -- Enter a number for the left margin in inches.
+ - Example:
+    2
+
+This indents the text 2 inches from the left edge.
+
+3. Enter Your Message
+You’ll see:
+  INPUT MESSAGE HERE
+  >
+
+ - Type your message in letters A–Z (numbers and punctuation can be added in a future update).
+ - Example:
+    HELLO WORLD
+
+4. View the Output
+The program:
+ - Displays the banner immediately in the console.
+ - Saves the same banner to banner_output.txt in the program’s folder.
+
+You’ll see:
+
+  Banner saved to: C:\path\to\your\project\banner_output.txt
+
+Opening the Saved Banner
+ - Go to the program folder.
+ - Find the file banner_output.txt.
+ - Open it with Notepad, TextEdit, or any text viewer.
+ - You can now print it on a normal printer or paste it into documents.
+
+Tips & Notes
+ - Bigger width/height = more scaling of each letter.
+ - The program replaces the “ink” in each letter with the letter itself, so it looks bold and readable.
+ - Messages print in uppercase automatically.
+ - If your console window is narrow, lines may wrap — check the banner_output.txt file for correct layout.
+
+Example Run
+  INPUT HEIGHT, WIDTH IN INCHES? 4 3
+  HOW FAR IN INCHES FROM THE LEFT HAND SIDE, DO YOU WANT TO PLACE THE LETTERS? 1
+  INPUT MESSAGE HERE
+  > BANNER TEST
+
+Banner saved to: C:\Users\You\BannerPrinter\banner_output.txt
+
+The output file will contain large block letters spelling BANNER TEST starting 1 inch from the left margin.

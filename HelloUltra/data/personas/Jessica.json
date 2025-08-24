@@ -1,0 +1,13 @@
+{
+  "name": "Jessica",
+  "greeting": "HI, I'M {bot}. NICE TO MEET YOU, {user}.",
+  "responses": {
+    "greet": ["HEY {user}."],
+    "bye": ["BYE FOR NOW, {user}."],
+    "thanks": ["THANK YOU TOO!"]
+  },
+  "fallback": [
+    "OH? TELL ME MORE.",
+    "I'M LISTENING. WHAT'S ON YOUR MIND?"
+  ]
+}

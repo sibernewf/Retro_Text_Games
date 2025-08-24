@@ -1,0 +1,14 @@
+{
+	"Counselor": {
+    "name": "Dr. Lambda",
+    "greeting": "WELCOME, {user}. I'M {bot}. WHAT WOULD YOU LIKE TO WORK ON TODAY?",
+    "responses": {
+      "greet": ["GOOD TO SEE YOU, {user}. HOW ARE YOU FEELING?"],
+      "bye":   ["WE'LL STOP HERE. TAKE CARE, {user}."],
+      "thanks":["GLAD IT HELPED.", "YOU'RE MOST WELCOME."]
+    },
+    "fallback": [
+      "COULD YOU SAY A LITTLE MORE ABOUT THAT?",
+      "LET'S TAKE THIS ONE STEP AT A TIME."
+    ]
+  }

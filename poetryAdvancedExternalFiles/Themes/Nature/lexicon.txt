@@ -1,0 +1,30 @@
+# word|pos|syl|rhymeKey|weight
+the|det|1||
+a|det|1||
+soft|adj|1|OFT|2
+wild|adj|1|ILD
+quiet|adj|2||
+green|adj|1|EEN
+golden|adj|2|OLD
+dawn|noun|1|AWN
+pine|noun|1|INE
+ocean|noun|2|OH
+breeze|noun|1|EEZ|3
+stone|noun|1|ONE
+river|noun|2|IV
+light|noun|1|ITE
+fern|noun|1|ERN
+sings|verb|1|INGS|2
+glitters|verb|2|IT
+rises|verb|2|IZE
+wanders|verb|2|AN
+rests|verb|1|ESTS
+whispers|verb|2|IZ
+under|prep|2||
+above|prep|2||
+across|prep|2||
+forever|adv|3|EV
+slowly|adv|2|OH
+falling|gerund|2|AWL
+shimmering|gerund|3|IM
+wide sky|noun|2|AI

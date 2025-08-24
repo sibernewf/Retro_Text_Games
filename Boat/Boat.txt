@@ -1,0 +1,34 @@
+Player Documentation — Submarine
+Overview
+You’re the submarine; the computer is the gunboat. The gunboat is somewhere a few thousand yards away and moving fast. You pick a firing angle (0–359°) for your torpedo; it runs straight forever at a fixed speed. If your torpedo’s path passes within ~100 yards of the gunboat, you score a HIT and win. Miss four times and the gunboat finds you and… well… gloub gloub.
+
+How to Play
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+Controls
+When prompted, type a firing angle like 73 and press Enter.
+
+You get 4 torpedoes per encounter.
+
+After a miss, we show your closest approach in yards so you can adjust.
+
+After each encounter, choose to play again.
+
+Press Q at any prompt to quit immediately.
+
+What the Game Tells You
+Initial intel: current range estimate and a rough angle band (“try between 42° and 87°”) to help first shots.
+
+After each shot:
+
+HIT → “DIRECT HIT! THE GUNBOAT IS SUNK.”
+
+MISS → “SPLASH — MISS. CLOSEST APPROACH ≈ N yards.”
+
+Notes
+Units: yards for distance, minutes for time. Torpedo speed is 50 kts; gunboat speed varies 12–32 kts on a random course.
+
+A session log is saved to submarine_log.txt (angles, hits, misses).
+
+The sub is fixed at the origin; the gunboat moves in a straight line — so your best plan is to lead the target.

@@ -1,0 +1,17 @@
+How it works
+ - Secret number: random 3 distinct digits (like BASIC version).
+ - Clues:
+   - FERMI → right digit, right place.
+   - PICO → right digit, wrong place.
+   - BAGELS → no matching digits.
+ - Q to quit: At any guess prompt, typing Q exits immediately.
+
+How to run
+Save as Bagels.cs.
+In terminal:
+
+dotnet new console -n BagelsGame
+cd BagelsGame
+
+Run:
+dotnet run

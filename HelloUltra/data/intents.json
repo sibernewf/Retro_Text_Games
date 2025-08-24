@@ -1,0 +1,27 @@
+[
+  { "name": "greet", "score": 50,
+    "patterns": ["^(hi|hello|hey|howdy)\\b", "\\bgood\\s+(morning|evening|afternoon)\\b"]
+  },
+  { "name": "bye", "score": 50, "patterns": ["\\b(bye|goodbye|see you|later)\\b"] },
+  { "name": "thanks", "score": 40, "patterns": ["\\b(thanks|thank you|ty)\\b"] },
+
+  { "name": "setname", "score": 60, "slotNames": ["name"],
+    "patterns": ["\\bmy\\s+name\\s+is\\s+(?<name>[A-Za-z][\\w\\-']*)\\b"] },
+
+  { "name": "health", "score": 30,
+    "patterns": ["\\b(health|sick|ill|cold|flu|fever|sleep|diet|exercise|pain)\\b"] },
+
+  { "name": "money", "score": 30,
+    "patterns": ["\\b(money|broke|debt|bills?|budget|rent|raise|salary|mortgage)\\b"] },
+
+  { "name": "job", "score": 30,
+    "patterns": ["\\b(job|work|boss|interview|career|promotion|fired)\\b"] },
+
+  { "name": "sex", "score": 30,
+    "patterns": ["\\b(sex|dating|partner|relationship|intimacy)\\b"] },
+	
+  { "name": "joke",  "score": 25, 
+    "patterns": ["\\b(joke|funny|make me laugh)\\b"] }
+]
+
+

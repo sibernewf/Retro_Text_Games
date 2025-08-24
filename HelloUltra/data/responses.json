@@ -1,0 +1,47 @@
+{
+  "intents": {
+    "health": {
+      "neutral": [
+        "CAN YOU TELL ME MORE ABOUT YOUR HEALTH QUESTION?",
+        "WHEN DID THIS START, {user}? ANYTHING MAKE IT BETTER OR WORSE?"
+      ],
+      "positive": [
+        "GLAD YOU'RE FEELING OK. SLEEP, HYDRATION, AND A SHORT WALK OFTEN HELP A LOT."
+      ],
+      "negative": [
+        "SORRY YOU'RE NOT FEELING GREAT. IF SYMPTOMS LAST > 3 DAYS OR GET SEVERE, SEE A CLINIC."
+      ]
+    },
+    "money": {
+      "neutral": [
+        "QUICK PLAN: 50/30/20 BUDGET, AUTO-TRANSFER ON PAYDAY, AND A $1,000 EMERGENCY BUFFER.",
+        "WHAT'S YOUR BIGGEST MONEY HEADACHE — BILLS, DEBT, OR SAVINGS?"
+      ],
+      "positive": [
+        "NICE! WANT TO OPTIMIZE? TRY PAYING YOURSELF FIRST: AUTO 10% TO SAVINGS."
+      ],
+      "negative": [
+        "IT'S TOUGH WHEN MONEY'S TIGHT. WANT A SIMPLE ZERO-BASED BUDGET TEMPLATE?"
+      ]
+    },
+    "job": {
+      "neutral": [
+        "CAREER TIP: PREP THREE STORIES (CHALLENGE–ACTION–RESULT) FOR YOUR NEXT INTERVIEW.",
+        "WHAT'S THE SITUATION AT WORK — BOSS, ROLE, OR GROWTH?"
+      ]
+    },
+    "sex": {
+      "neutral": [
+        "RELATIONSHIPS CAN BE TRICKY. DO YOU WANT COMMUNICATION TIPS, DATING IDEAS, OR BOUNDARIES?",
+        "IF IT'S 'TOO LITTLE', START WITH A LOW-PRESSURE DATE AND AN HONEST TALK."
+      ]
+    },
+	
+	"joke": {
+      "neutral": [
+        "WHY DID THE FUNCTION CROSS THE ROAD? TO GET TO THE OTHER SIDE EFFECT.",
+        "I WOULD TELL YOU A UDP JOKE, BUT YOU MIGHT NOT GET IT."
+      ]
+    }
+  }
+}

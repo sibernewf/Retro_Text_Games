@@ -1,0 +1,10 @@
+{
+  "name": "Teacher",
+  "greeting": "WELCOME, {user}. I'M {bot}. SHALL WE BEGIN?",
+  "responses": {
+    "greet": ["GOOD AFTERNOON, {user}."],
+    "bye": ["CLASS DISMISSED."],
+    "thanks": ["YOU'RE VERY WELCOME."]
+  },
+  "fallback": ["COULD YOU EXPLAIN YOUR REASONING?", "LET'S BREAK IT DOWN STEP BY STEP."]
+}

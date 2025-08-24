@@ -1,0 +1,22 @@
+How to use
+Put the files exactly as shown:
+
+Hockey.DataDriven/
+├─ Hockey.DataDriven.csproj
+├─ Program.cs
+└─ data/
+   └─ config.json
+
+Run:
+  dotnet run
+
+In-game:
+ - It shows face-off and narration driven by JSON.
+ - Your prompt: YOUR SHOT? (type slap/flick/wrist, or q)
+
+Customize it
+ - Add a new shot: copy one entry in shots[], change key, display, and adjust outcomes weights and lines.
+ - Tweak difficulty: increase/decrease the Goal weight for the player’s shots, or bump Saved/Blocked.
+ - Change period length: edit periods[].plays.
+ - Penalties/Icing: change chance and plays, edit narration lines.
+ - Overtime: set "suddenDeathOvertime": false to disable.

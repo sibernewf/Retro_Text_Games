@@ -1,0 +1,96 @@
+BOUNCE – Player Documentation
+How to Play
+To play, double-click run.bat in the game’s folder.
+This will build and run the game, and keep the window open when it finishes.
+
+You will see prompts in the console to set up your bouncing ball simulation.
+
+Game Setup Prompts
+Initial velocity (ft/s)
+
+How fast the ball is thrown upward from the ground.
+
+Example: 50 for a gentle throw, 200 for a rocket launch.
+
+Coefficient (0..1)
+
+Represents how “bouncy” the ball is.
+
+A superball is about 0.85.
+
+A beanbag might be 0.3.
+
+Use values less than 1 or the ball will bounce forever!
+
+Time increment Δt (seconds)
+
+Controls how often the ball’s position is calculated.
+
+Smaller values (e.g., 0.05) = smoother curve but more output.
+
+Larger values (e.g., 0.2) = choppier curve but fewer columns.
+
+Total seconds to plot
+
+How long the simulation runs before stopping.
+
+Default is 6 seconds — increase for higher throws.
+
+Reading the Output
+Vertical axis (left) shows height in feet.
+
+Horizontal axis (right) shows time in seconds.
+
+A small letter o marks the ball’s position at each time step.
+
+Vertical tick marks (|) at the bottom show whole-second intervals.
+
+Numbers under the tick marks show the elapsed time in seconds.
+
+Tips for Best Results
+Realistic superball: Try Initial velocity = 50, Coefficient = 0.85, Δt = 0.1.
+
+Crazy bouncing: Use a high coefficient (e.g., 0.95) and big velocity — watch it hop for ages.
+
+Quick drop: Set velocity low (e.g., 10) and coefficient very low (e.g., 0.2) to see it die out fast.
+
+Fine detail: Reduce Δt to 0.05 to see more “frames” of motion.
+
+Long play: If your ball still has life left at the end, increase “total seconds” to capture more bounces.
+
+If you set coefficient to 0, the ball will stop dead on the first bounce.
+
+If you set coefficient too close to 1, the ball will keep bouncing for a very long time — press Ctrl+C to quit early.
+
+Quitting
+At any prompt, type Q to quit the program.
+
+In the middle of the simulation, close the console window or press Ctrl+C.
+
+Here’s a small ASCII diagram you can drop straight into the Bounce Player Documentation so players instantly “get” how the output works.
+
+   Height (ft)
+14 | o
+13 |  o
+12 |   o
+11 |    o
+10 |     o
+ 9 |      o
+ 8 |       o
+ 7 |        o
+ 6 |         o
+ 5 |          o
+ 4 |           o
+ 3 |            o
+ 2 |             o
+ 1 |              o
+ 0 +---------------------------------------
+     0    1    2    3    4    5    6  Seconds
+     |    |    |    |    |    |    |
+
+How to read it:
+ - The numbers on the left are height in feet.
+ - The o marks where the ball is at each time step.
+ - The bottom line is the time axis in seconds.
+ - Vertical bars under the axis mark exact seconds.
+

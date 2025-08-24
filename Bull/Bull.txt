@@ -1,0 +1,54 @@
+BULL – Player Documentation
+(Bullfight Simulation Game)
+
+*To play, double-click run.bat in the game’s folder. This will build and run the game, and keep the window open when it finishes.
+
+Description
+In BULL, you take on the role of the matador—the main star of the bullfight, tasked with defeating the bull or meeting a gory end. The challenge is to survive the passes of the bull, choose your cape maneuvers wisely, and decide the right moment to attempt the kill.
+
+Game Flow
+Instructions Prompt – At the start, you can choose to read the instructions (YES) or skip them (NO).
+
+Bull Quality – The game randomly assigns you a bull’s quality (e.g., Superb, Good, Poor), which influences difficulty.
+
+Picadores & Toreadores – The performance of your assisting team affects your chances.
+
+Passes – Each turn (or “pass”), you choose your action:
+
+0 – Veronica (dangerous inside move of the cape)
+
+1 – Less dangerous outside move
+
+2 – Ordinary swirl of the cape
+
+Attempt to Kill the Bull – On any pass, you may try to kill the bull:
+
+4 – Over the horns
+
+5 – In the chest
+(Pro tip: Don’t try before the seventh pass if you value your life.)
+
+Scoring & Outcomes
+Survival – The primary goal is to remain alive.
+
+Awards – Based on your bravery, skill, and survival, the crowd may award you:
+
+An ear of the bull
+
+Two ears
+
+Ovations or boos
+
+Death – If the bull gores you, you die, and the award is given posthumously.
+
+Tips
+The braver the move, the higher the potential reward—but also the higher the risk.
+
+A strong team of Picadores and Toreadores improves your odds.
+
+Pay attention to the pass number before attempting the kill.
+
+Sample Gameplay
+Good Bull + Good Team → Safer early passes, better kill chances.
+
+Poor Bull + Poor Team → Higher risk, especially if the bull survives many passes.

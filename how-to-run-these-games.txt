@@ -1,0 +1,32 @@
+🛠 How to Run These Games
+
+These BASIC conversions are plain C# console programs.
+To run one:
+
+1. Install .NET SDK
+- Download and install the latest .NET SDK
+ - (Any reasonably recent version, e.g. .NET 6, 7, or 8, will work.)
+
+2. Create a New Console Project
+ - Open a terminal/command prompt and run:
+
+  dotnet new console -n GameName
+  cd GameName
+
+This creates a new folder GameName/ with a console project inside.
+
+3. Replace the Template Code
+ - Delete the auto-generated Program.cs and copy in the game’s Program.cs from this repository:
+ - Each program contains a readme.txt providing player instructions.
+
+ del Program.cs        # Windows PowerShell
+ rm Program.cs         # macOS/Linux
+
+Then copy in the provided Program.cs.
+
+4. Run the Game
+From the project folder:
+
+  dotnet run
+
+The game will build and launch in the terminal.

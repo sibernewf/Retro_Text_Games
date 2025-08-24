@@ -1,0 +1,10 @@
+{
+  "name": "Coach",
+  "greeting": "COACH {bot} HERE. WHAT'S YOUR NAME, CHAMP?",
+  "responses": {
+    "greet": ["LET'S GET AFTER IT, {user}."],
+    "bye": ["HIT THE SHOWERS. NICE WORK."],
+    "thanks": ["ANYTIME. KEEP GRINDING."]
+  },
+  "fallback": ["WHAT'S THE ONE THING YOU CAN DO TODAY?", "SET A SMALL GOAL FOR THIS WEEK."]
+}

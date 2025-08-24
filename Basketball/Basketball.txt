@@ -1,0 +1,84 @@
+Player Documentation – Dartmouth College Basketball
+📜 Overview
+This is Dartmouth College Basketball, a text-based basketball simulation where you play as Dartmouth’s captain and playmaker.
+You’ll be calling offensive and defensive plays, trying to outscore your chosen opponent before the clock runs out.
+
+The game has been modernized for C# and can be exited at any time by typing Q.
+
+▶ How to Run
+Make sure you have the game folder with the source code.
+
+Open run.bat – this will automatically run the game using:
+
+  dotnet run
+
+Follow the on-screen prompts.
+
+🎯 Objective
+Outscore your opponent by choosing smart plays and managing defense.
+The game simulates two halves (with potential overtime if tied), and play-by-play text commentary shows what happens after each decision.
+
+Gameplay Instructions
+1. Opponent Selection
+ - At the start, you’ll be asked to choose your opponent.
+ - Type the opponent’s name and press Enter.
+
+2. Defense Setup
+ - Both teams use the same defense type.
+ - Defense choices:
+   - 6 – Press
+   - 5 – Man-to-Man
+   - 7 – Zone
+   - 5 – None (relaxed defense)
+ - Type the number for your desired defense.
+ - You can change defense later by typing a defense number as your next "shot" choice.
+
+3. Tip-off
+ - The game will simulate the center jump to determine who gets the ball first.
+
+4. Calling Shots
+On offense, you can call:
+ - Long shot
+ - Jump shot
+ - Lay-up
+ - Set shot
+
+Example:
+
+  YOUR SHOT ? 3
+
+Would attempt a lay-up.
+
+5. Defense in Play
+ - When defending, you’ll see the result of the opponent’s possession and who gets the rebound.
+ - Rebounds may give you possession again or let the opponent continue.
+
+6. Scoring
+ - Successful shots add to your score.
+ - Scores are displayed throughout the match:
+
+    SCORE: 12 TO 8
+
+7. Two-Minute Warning
+When two minutes remain in the game, a special notice appears:
+
+  *** TWO MINUTES LEFT IN THE GAME ***
+
+You’ll need to make the most of the remaining possessions.
+
+8. End of Game
+At the end of regulation:
+ - If tied, a 10-minute overtime period is played.
+ - Otherwise, the final score is shown:
+
+  FINAL SCORE: DARTMOUTH 35 CORNELL 51
+
+Special Commands
+ - Q – Quit the game immediately (modern feature added).
+ - Any invalid input will ask you to try again.
+
+💡 Tips for Success
+ -  Lay-ups have a higher chance of scoring but depend on getting close to the basket.
+ - Long shots can quickly change the score but are harder to make.
+ - Changing defense strategy during the game can disrupt the opponent’s rhythm.
+ - Watch for rebound opportunities – extra possessions mean more chances to score.

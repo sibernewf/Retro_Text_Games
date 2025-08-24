@@ -1,0 +1,36 @@
+ Player Documentation (for the modernized version)
+Title:
+Olympic Boxing Match — Modern Edition
+
+Description:
+A three-round boxing match between you and the computer. Outthink, outpunch, and outlast your opponent. Each round has up to seven punches. The first fighter to win two rounds becomes the champion.
+
+How to Play:
+
+Start the Game — enter your opponent’s name, your own name, your best punch, and your vulnerability.
+
+Choose Punches — during each round, pick a punch type by number:
+
+1 = Full Swing (powerful but slower)
+
+2 = Hook (balanced power and speed)
+
+3 = Uppercut (great for close range)
+
+4 = Jab (fast but light)
+
+Defend & Attack — the computer will attack and defend using its own strategy.
+
+Win Rounds — the round goes to whoever lands more successful hits.
+
+Victory — win 2 out of 3 rounds to claim the championship.
+
+Tips:
+
+Your best punch is slightly more likely to hit.
+
+Your vulnerability means the opponent’s punches of that type have a higher chance of landing.
+
+Mix up your punches to keep the opponent guessing.
+
+Some luck is involved — even the best punch can miss.

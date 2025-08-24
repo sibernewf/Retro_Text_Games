@@ -1,0 +1,56 @@
+{
+  "name": "Game of Thrones",
+  "spaces": [
+    { "index": 0, "type": "Go", "name": "Iron Bank Payout (GO)" },
+
+    { "index": 1, "type": "Property", "name": "Winterfell", "group": "Brown", "price": 60, "houseCost": 50, "rent": [2,10,30,90,160,250] },
+    { "index": 2, "type": "CommunityChest" },
+    { "index": 3, "type": "Property", "name": "The Wall", "group": "Brown", "price": 60, "houseCost": 50, "rent": [4,20,60,180,320,450] },
+    { "index": 4, "type": "Tax", "name": "Iron Throne Tax", "amount": 200 },
+    { "index": 5, "type": "Railroad", "name": "King's Road North", "price": 200 },
+
+    { "index": 6, "type": "Property", "name": "Moat Cailin", "group": "LightBlue", "price": 100, "houseCost": 50, "rent": [6,30,90,270,400,550] },
+    { "index": 7, "type": "Chance" },
+    { "index": 8, "type": "Property", "name": "White Harbor", "group": "LightBlue", "price": 100, "houseCost": 50, "rent": [6,30,90,270,400,550] },
+    { "index": 9, "type": "Property", "name": "Pyke", "group": "LightBlue", "price": 120, "houseCost": 50, "rent": [8,40,100,300,450,600] },
+
+    { "index": 10, "type": "Jail", "name": "The Black Cells" },
+
+    { "index": 11, "type": "Property", "name": "Dragonstone", "group": "Pink", "price": 140, "houseCost": 100, "rent": [10,50,150,450,625,750] },
+    { "index": 12, "type": "Utility", "name": "Citadel (Maesters)", "price": 150 },
+    { "index": 13, "type": "Property", "name": "Storm's End", "group": "Pink", "price": 140, "houseCost": 100, "rent": [10,50,150,450,625,750] },
+    { "index": 14, "type": "Property", "name": "Highgarden", "group": "Pink", "price": 160, "houseCost": 100, "rent": [12,60,180,500,700,900] },
+    { "index": 15, "type": "Railroad", "name": "King's Road South", "price": 200 },
+
+    { "index": 16, "type": "Property", "name": "Sunspear", "group": "Orange", "price": 180, "houseCost": 100, "rent": [14,70,200,550,750,950] },
+    { "index": 17, "type": "CommunityChest" },
+    { "index": 18, "type": "Property", "name": "Oldtown", "group": "Orange", "price": 180, "houseCost": 100, "rent": [14,70,200,550,750,950] },
+    { "index": 19, "type": "Property", "name": "Casterly Rock", "group": "Orange", "price": 200, "houseCost": 100, "rent": [16,80,220,600,800,1000] },
+
+    { "index": 20, "type": "FreeParking", "name": "Small Council Chamber" },
+
+    { "index": 21, "type": "Property", "name": "Braavos", "group": "Red", "price": 220, "houseCost": 150, "rent": [18,90,250,700,875,1050] },
+    { "index": 22, "type": "Chance" },
+    { "index": 23, "type": "Property", "name": "Meereen", "group": "Red", "price": 220, "houseCost": 150, "rent": [18,90,250,700,875,1050] },
+    { "index": 24, "type": "Property", "name": "Yunkai", "group": "Red", "price": 240, "houseCost": 150, "rent": [20,100,300,750,925,1100] },
+    { "index": 25, "type": "Railroad", "name": "The Narrow Sea Route", "price": 200 },
+
+    { "index": 26, "type": "Property", "name": "Vaes Dothrak", "group": "Yellow", "price": 260, "houseCost": 150, "rent": [22,110,330,800,975,1150] },
+    { "index": 27, "type": "Property", "name": "Qarth", "group": "Yellow", "price": 260, "houseCost": 150, "rent": [22,110,330,800,975,1150] },
+    { "index": 28, "type": "Utility", "name": "House of the Undying", "price": 150 },
+    { "index": 29, "type": "Property", "name": "Astapor", "group": "Yellow", "price": 280, "houseCost": 150, "rent": [24,120,360,850,1025,1200] },
+
+    { "index": 30, "type": "GoToJail", "name": "Sent to the Night's Watch" },
+
+    { "index": 31, "type": "Property", "name": "The Eyrie", "group": "Green", "price": 300, "houseCost": 200, "rent": [26,130,390,900,1100,1275] },
+    { "index": 32, "type": "Property", "name": "Harrenhal", "group": "Green", "price": 300, "houseCost": 200, "rent": [26,130,390,900,1100,1275] },
+    { "index": 33, "type": "CommunityChest" },
+    { "index": 34, "type": "Property", "name": "Dragonpit", "group": "Green", "price": 320, "houseCost": 200, "rent": [28,150,450,1000,1200,1400] },
+    { "index": 35, "type": "Railroad", "name": "The Kingsroad East", "price": 200 },
+
+    { "index": 36, "type": "Chance" },
+    { "index": 37, "type": "Property", "name": "Red Keep", "group": "DarkBlue", "price": 350, "houseCost": 200, "rent": [35,175,500,1100,1300,1500] },
+    { "index": 38, "type": "Tax", "name": "Royal Levy", "amount": 100 },
+    { "index": 39, "type": "Property", "name": "Iron Throne", "group": "DarkBlue", "price": 400, "houseCost": 200, "rent": [50,200,600,1400,1700,2000] }
+  ]
+}

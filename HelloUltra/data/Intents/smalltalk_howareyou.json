@@ -1,0 +1,13 @@
+{
+  "name": "smalltalk_howareyou",
+  "score": 55,
+  "patterns": [
+    "\\bhow(?:'| )?re\\s+you\\b",
+    "\\bhow\\s+are\\s+you\\b",
+    "\\bhow\\s+is\\s+it\\s+going\\b",
+    "\\bhows?\\s+it\\s+going\\b",
+    "\\bwhat'?s\\s+up\\b",
+    "\\bhow\\s+about\\s+you\\b",
+    "^\\s*(?:and\\s+)?you\\??\\s*$"
+  ]
+}

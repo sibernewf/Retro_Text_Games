@@ -1,0 +1,15 @@
+Here’s a clean C# console version that asks for width and height, generates a perfect maze, and prints it as ASCII.
+How to run it
+Option A — .NET CLI (recommended)
+Install the .NET SDK if needed: dotnet.microsoft.com/download
+
+In a terminal:
+
+dotnet new console -n Amazin
+cd Amazin
+# Replace Program.cs with the code above (or name the file Amazin.cs and update csproj if you prefer)
+dotnet run
+When prompted, enter width and height (e.g. 39 7), and it will print the maze.
+
+Option B — Unity
+Create a new C# script named Amazin.cs, paste the code, and change Main() to Start() inside a MonoBehaviour that logs to a UI Text or writes to a file—console output is awkward in-editor. For a quick play experience, the pure .NET console route is much nicer.

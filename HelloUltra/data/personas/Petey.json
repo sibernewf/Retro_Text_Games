@@ -1,0 +1,13 @@
+{
+  "name": "Petey P. Eight",
+  "greeting": "HELLO. I'M {bot}. TELL ME YOUR NAME TO GET STARTED.",
+  "responses": {
+    "greet": ["HELLO, {user}.", "HI THERE {user}!", "HEY — NICE TO SEE YOU, {user}."],
+    "bye":   ["BYE, {user}.", "TAKE CARE, {user}.", "SEE YOU LATER."],
+    "thanks":["YOU'RE WELCOME.", "ANYTIME.", "HAPPY TO HELP."]
+  },
+  "fallback": [
+    "I SEE. {user}, WHAT WOULD HELP RIGHT NOW — INFORMATION, A PLAN, OR JUST TO VENT?",
+    "TELL ME MORE. WE CAN FOCUS ON HEALTH, MONEY, JOB, OR RELATIONSHIPS."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Question": "DOES IT FLY?",
+  "Animal": null,
+  "Yes": {
+    "Question": null,
+    "Animal": "bird",
+    "Yes": null,
+    "No": null,
+    "IsLeaf": true
+  },
+  "No": {
+    "Question": "WHAT HAS A LONG TRUNK?",
+    "Animal": null,
+    "Yes": {
+      "Question": null,
+      "Animal": "Elephant",
+      "Yes": null,
+      "No": null,
+      "IsLeaf": true
+    },
+    "No": {
+      "Question": null,
+      "Animal": "fish",
+      "Yes": null,
+      "No": null,
+      "IsLeaf": true
+    },
+    "IsLeaf": false
+  },
+  "IsLeaf": false
+}

@@ -1,0 +1,21 @@
+Hand start: Bet 10, Player: 8 of Spades, 3 of Clubs, Dealer up K of Diamonds
+Dealer reveals → K of Diamonds, 5 of Hearts, total 15
+Dealer hits → 4 of Diamonds, total 19
+Dealer beats player.
+Hand start: Bet 10, Player: Q of Spades, 3 of Diamonds, Dealer up 7 of Clubs
+Player hit → 6 of Diamonds, total 19
+Dealer reveals → 7 of Clubs, 5 of Clubs, total 12
+Dealer hits → Q of Diamonds, total 22
+Dealer busted.
+Hand start: Bet 50, Player: J of Spades, 6 of Clubs, Dealer up 7 of Spades
+Player hit → K of Diamonds, total 26
+Player busted.
+Hand start: Bet 50, Player: K of Spades, 7 of Hearts, Dealer up 3 of Hearts
+Dealer reveals → 3 of Hearts, 3 of Spades, total 6
+Dealer hits → 7 of Hearts, total 13
+Dealer hits → 9 of Clubs, total 22
+Dealer busted.
+Hand start: Bet 50, Player: 5 of Spades, 5 of Diamonds, Dealer up 9 of Clubs
+Player doubled → drew 6 of Hearts, total 16
+Dealer reveals → 9 of Clubs, 9 of Spades, total 18
+Dealer beats player.
