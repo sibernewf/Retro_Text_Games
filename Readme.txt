@@ -1,8 +1,15 @@
-dotnet new console -n Aceyducy
- - this creates the project called Aceyducy
+Here is a collection of old text based computer games.
+They were converted from BASIC to C#.
 
+Requirements:
+You should have Microsoft .NET installed on your system.
 
-Running a app:
- - Ensure you are in the project folder.
+To create a project:
+dotnet new console -n <gamename>
 
- dotnet run
+Then copy the Program.cs over the generated one in the folder.
+
+Running a app in Windows:
+1. Navigate to the game folder
+ 2. run: dotnet run
+
