@@ -1,5 +1,6 @@
 Here is a collection of old text based computer games.
 They were converted from BASIC to C#.
+Most of them were converted to C# from old BASIC books by other authors.
 
 Requirements:
 You should have Microsoft .NET installed on your system.
