@@ -570,8 +570,11 @@ namespace DrawPoker
             {
                 int pRank = rank.Tiebreak[0];
                 // keep pair, discard the 3 others
-                var keep = h.Select((c, i) => (c, i)).Where(t => (int)t.c == pRank).Select(t => t.i).ToHashSet();
-                for (int i = 0; i < h.Count; i++) if (!keep.Contains(i)) toDiscard.Add(i);
+                var keep = h.Select((c, i) => (c, i))
+                            .Where(t => (int)t.c.Rank == pRank)
+                            .Select(t => t.i).ToHashSet();
+                for (int i = 0; i < h.Count; i++) 
+                    if (!keep.Contains(i)) toDiscard.Add(i);
             }
             else
             {
